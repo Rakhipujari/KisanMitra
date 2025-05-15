@@ -1,0 +1,17 @@
+# created by virtualenv automatically
+/backend/models
+
+/backend/venv
+
+/dataset/pest
+
+/include
+
+/Lib
+
+/Scripts
+
+/Share
+
+/var
+
