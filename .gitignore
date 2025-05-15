@@ -20,6 +20,7 @@
 
 
 pyvenv.cfg
+*.cfg
 
 # dependencies
 /pest-monitoring-frontend/node_modules
@@ -48,3 +49,4 @@ pyvenv.cfg
 
 /pest-monitoring-frontend/public/manifest.json
 /pest-monitoring-frontend/public/robots.txt
+
