@@ -1,0 +1,101 @@
+.App {
+  text-align: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+input {
+  margin: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+}
+
+
+
+/* Google Translate Button Styles */
+.translate-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Hover Effect for Translate Button */
+.translate-button:hover {
+  background-color: #0056b3;
+  transform: scale(1.1); /* Slight zoom effect */
+}
+
+
+
+/* Image Preview Styles */
+.image-preview img {
+  border: 2px solid #ddd;
+  border-radius: 5px;
+}
+
+
+
+/* Pest Info Styles */
+.pest-info {
+  margin-top: 20px;
+  text-align: left;
+  display: inline-block;
+  font-family: "Arial", sans-serif; /* Change to desired font */
+  font-size: 16px; /* Increase or decrease font size as needed */
+  line-height: 1.6; /* Improves readability */
+  color: #333; /* Dark text color */
+  padding: 20px;
+  border: 1px solid #ddd; /* Optional border */
+  border-radius: 8px; /* Optional rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  background-color: #f9f9f9; /* Light background color */
+}
+
+/* Bullet Points for Solutions */
+.pest-info ul {
+  margin: 10px 0;
+  padding-left: 20px; /* Indent bullet points */
+  list-style-type: disc; /* Standard bullet points */
+}
+
+.pest-info ul li {
+  margin-bottom: 8px; /* Space between bullet points */
+}
+
+/* Headers inside Pest Info */
+.pest-info h2 {
+  font-size: 24px;
+  color: #007bff; /* Blue text for headers */
+  margin-bottom: 10px;
+}
+
+.pest-info h3, .pest-info h4 {
+  font-size: 20px;
+  color: #555; /* Slightly darker header text */
+  margin-bottom: 8px;
+}
