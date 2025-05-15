@@ -15,3 +15,35 @@
 
 /var
 
+/backend/__pycache__
+
+pyvenv.cfg
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/pest-monitoring-frontend/node_modules
+/pest-monitoring-frontend/.pnp
+/pest-monitoring-frontend.pnp.js
+
+# testing
+/pest-monitoring-frontend/coverage
+
+# production
+/pest-monitoring-frontend/build
+
+# misc
+/pest-monitoring-frontend/.DS_Store
+/pest-monitoring-frontend/.env.local
+/pest-monitoring-frontend/.env.development.local
+/pest-monitoring-frontend/.env.test.local
+/pest-monitoring-frontend/.env.production.local
+
+/pest-monitoring-frontend/npm-debug.log*
+/pest-monitoring-frontend/yarn-debug.log*
+/pest-monitoring-frontend/yarn-error.log*
+
+/pest-monitoring-frontend/package.json
+/pest-monitoring-frontend/package-lock.json
+
+/pest-monitoring-frontend/public/manifest.json
+/pest-monitoring-frontend/public/robots.txt
