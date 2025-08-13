@@ -4,8 +4,8 @@ import tensorflow as tf
 from tensorflow.keras.models import load_model
 from PIL import Image
 import numpy as np
-from pest_info import pest_details  # Ensure this file contains pest details
-import openai
+from pest_info import pest_details
+
 app = Flask(__name__)
 CORS(app)
 
@@ -13,7 +13,7 @@ CORS(app)
 MODEL_PATH = "models/pest_model.h5"
 model = load_model(MODEL_PATH)
 
-# Get class labels (ensure the class order matches the flow_from_directory setup)
+# Get class labels
 class_labels = ['aphids', 'armyworm', 'beetle', 'bollworm', 'grasshopper', 'mites', 'mosquito', 'sawfly', 'stem_borer']
 
 @app.route('/api/upload', methods=['POST'])

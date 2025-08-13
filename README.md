@@ -39,15 +39,23 @@ The **Pest Monitoring System** is an AI-powered tool designed to assist farmers 
 
 ## Project Workflow
 1. **Data Collection**:
-   - Collected pest images and labeled them into categories.
+   - Used a standard dataset of pest images.
 2. **Model Training**:
    - Trained the EfficientNetB0 model with data augmentation to improve robustness.
 3. **Backend Development**:
    - Integrated the trained model into a Flask API for real-time predictions.
 4. **Frontend Development**:
    - Created a React-based web interface for users to upload images and view results.
-5. **Deployment**:
-   - Deployed the system on a scalable infrastructure to support real-time use.
 
 ---
+## Results
+
+![img_1.png](img_1.png)
+
+![img_2.png](img_2.png)
+
+![img_3.png](img_3.png)
+
+![img_4.png](img_4.png)
+
 

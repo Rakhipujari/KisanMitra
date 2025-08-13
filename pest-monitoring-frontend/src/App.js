@@ -35,9 +35,10 @@ function App() {
     formData.append("image", selectedFile);
 
     try {
-      const response = await axios.post("http://127.0.0.1:5000/api/upload", formData, {
-        headers: { "Content-Type": "multipart/form-data" },
-      });
+    const response = await axios.post("http://127.0.0.1:5000/api/upload", formData, {
+      headers: { "Content-Type": "multipart/form-data" },
+    });
+
 
       if (response.data.success) {
         setPestInfo(response.data.pest_info);

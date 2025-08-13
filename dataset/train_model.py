@@ -22,7 +22,7 @@ IMG_HEIGHT = 224
 IMG_WIDTH = 224
 BATCH_SIZE = 32
 
-# Number of classes (update based on your dataset)
+# Number of classes
 NUM_CLASSES = len(os.listdir(TRAIN_DIR))
 
 # Data Augmentation and Preprocessing
@@ -56,11 +56,11 @@ test_generator = test_datagen.flow_from_directory(
     shuffle=False
 )
 
-# Build the Model (Using EfficientNet as an example)
+# Build the Model
 base_model = tf.keras.applications.EfficientNetB0(
     input_shape=(IMG_HEIGHT, IMG_WIDTH, 3),
     include_top=False,
-    weights="models/efficientnetb0_notop.h5"  # Local path to weights
+    weights="models/efficientnetb0_notop.h5"
 )
 
 # Freeze base model layers

@@ -19,13 +19,14 @@
 *.pyc
 
 
-pyvenv.cfg/
+pyvenv.cfg
 *.cfg
 
 # dependencies
 /pest-monitoring-frontend/node_modules
 /pest-monitoring-frontend/.pnp
 /pest-monitoring-frontend.pnp.js
+/pest-monitoring-frontend/src/.env
 
 # testing
 /pest-monitoring-frontend/coverage
